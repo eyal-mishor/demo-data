@@ -1,0 +1,9 @@
+name,description,type,topic
+crm,a small business CRM system,internal,
+Sengrid,email system,external,
+Recurly,subscriptions management system,external,
+Cloudinary,images management system,external,
+Sentry,runtime error tracing,external,monitoring
+Newrelic,application monitoring,external,monitoring
+Prometheus,metrics tracing,external,monitoring
+Pingdim,monitoring system,external,monitoring

@@ -1,16 +1,16 @@
 name,description,used by person,uses container,type,software system,technology
-Operator Portal,Operator Web UI,Operator,Core,UI,crm,ViewJS
-Client Portal,Client Web UI,Client,Core,UI,crm,ViewJS
-Business Livesite,Simple website for the business,Client,Core,UI,crm,Ruby on Rails
-Business Portal,Business Web UI,Staff,Core,UI,crm,AngularJS
-Admin Portal,Admin Web UI,Support,Core,UI,crm,Ruby on Rails
-Core,backend API monolith,,SQL DB,Backend,crm,Ruby on Rails
-Mobile App,Business mobile App,Staff,Business Portal,Mobile,crm,iOS & Android
-SQL DB,contains main DB schema,,,DB,crm,AWS RDS
-Cache DB,key value cache,,,DB,crm,Redis
-Elastic DB,contains main DB schema,,,DB,crm,AWS OpenSearch
-Big data DB,allows aggregations,,,DB,crm,Snowflake
-Message Bus,allows async messages exchange,,,queue,crm,RabbitMQ
-Documents manager,manages documents,,SQL DB,Fullstack,crm,Node.js
-Subscriptions Manager,manages subscriptions,,SQL DB,Backend,crm,Node.js
-Notifications Center,manages notifications,,SQL DB,Backend,crm,Node.js
+Operator Portal,Operator Web UI,Operator,Core,UI,CRM,ViewJS
+Client Portal,Client Web UI,Client,Core,UI,CRM,ViewJS
+Business Livesite,Simple website for the business,Client,Core,UI,CRM,Ruby on Rails
+Business Portal,Business Web UI,Staff,Core,UI,CRM,AngularJS
+Admin Portal,Admin Web UI,Support,Core,UI,CRM,Ruby on Rails
+Core,backend API monolith,,SQL DB,Backend,CRM,Ruby on Rails
+Mobile App,Business mobile App,Staff,Business Portal,Mobile,CRM,iOS & Android
+SQL DB,contains main DB schema,,,DB,CRM,AWS RDS
+Cache DB,key value cache,,,DB,CRM,Redis
+Elastic DB,contains main DB schema,,,DB,CRM,AWS OpenSearch
+Big data DB,allows aggregations,,,DB,CRM,Snowflake
+Message Bus,allows async messages exchange,,,queue,CRM,RabbitMQ
+Documents manager,manages documents,,SQL DB,Fullstack,CRM,Node.js
+Subscriptions Manager,manages subscriptions,,SQL DB,Backend,CRM,Node.js
+Notifications Center,manages notifications,,SQL DB,Backend,CRM,Node.js

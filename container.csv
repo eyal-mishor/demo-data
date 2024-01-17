@@ -4,7 +4,7 @@ Client Portal,Client Web UI,Client,Core,UI,crm,ViewJS
 Business Livesite,Simple website for the business,Client,Core,UI,crm,Ruby on Rails
 Business Portal,Business Web UI,Staff,Core,UI,crm,AngularJS
 Admin Portal,Admin Web UI,Support,Core,UI,crm,Ruby on Rails
-Core,backend API monolith,,,Backend,crm,Ruby on Rails
+Core,backend API monolith,,SQL DB,Backend,crm,Ruby on Rails
 Mobile App,Business mobile App,Staff,Business Portal,Mobile,crm,iOS & Android
 SQL DB,contains main DB schema,,,DB,crm,AWS RDS
 Cache DB,key value cache,,,DB,crm,Redis

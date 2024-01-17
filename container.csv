@@ -13,4 +13,4 @@ Big data DB,allows aggregations,,,DB,CRM,Snowflake,
 Message Bus,allows async messages exchange,,,queue,CRM,RabbitMQ,
 Documents manager,manages documents,,SQL DB,Fullstack,CRM,Node.js,Cloudinary
 Subscriptions Manager,manages subscriptions,,SQL DB,Backend,CRM,Node.js,Recurly
-Notifications Center,manages notifications,,SQL DB,Backend,CRM,Node.js,Sendgrid
+Notifications Center,manages notifications,,SQL DB,Backend,CRM,Node.js,Sengrid

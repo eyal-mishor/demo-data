@@ -1,7 +1,7 @@
 name,description,used by person,uses containers,type,software system,technology,uses software system
-Customers Portal,Customers Web UI,Customer,Core,UI,CRM,ViewJS,
-Business Portal,Business Web UI,Staff,Core,UI,CRM,AngularJS,
-Admin Portal,Admin Web UI,Support,Core,UI,CRM,Ruby on Rails,
+Customers Portal,Customers Web UI,Customer,Backend,UI,CRM,ViewJS,
+Business Portal,Business Web UI,Staff,Backend,UI,CRM,AngularJS,
+Admin Portal,Admin Web UI,Support,Backend,UI,CRM,Ruby on Rails,
 Backend,backend API monolith,,SQL DB|Cache DB|Message Bus,Backend,CRM,Ruby on Rails,
 Mobile App,Business mobile App,Staff,Business Portal,Mobile,CRM,iOS & Android,
 SQL DB,contains main DB schema,,,DB,CRM,AWS RDS,

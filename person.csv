@@ -1,5 +1,4 @@
 name,description
-Operator,a partner operator
-Client,a business customer
+Customer,a business customer
 Staff,a business employee
 Support,a customer support

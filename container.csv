@@ -1,16 +1,9 @@
 name,description,used by person,uses containers,type,software system,technology,uses software system
-Operator Portal,Operator Web UI,Operator,Core,UI,CRM,ViewJS,
-Client Portal,Client Web UI,Client,Core,UI,CRM,ViewJS,
-Business Livesite,Simple website for the business,Client,Core,UI,CRM,Ruby on Rails,
+Customers Portal,Customers Web UI,Customer,Core,UI,CRM,ViewJS,
 Business Portal,Business Web UI,Staff,Core,UI,CRM,AngularJS,
 Admin Portal,Admin Web UI,Support,Core,UI,CRM,Ruby on Rails,
-Core,backend API monolith,,SQL DB|Cache DB|Big data DB|Elastic DB|Message Bus,Backend,CRM,Ruby on Rails,
+Backend,backend API monolith,,SQL DB|Cache DB|Message Bus,Backend,CRM,Ruby on Rails,
 Mobile App,Business mobile App,Staff,Business Portal,Mobile,CRM,iOS & Android,
 SQL DB,contains main DB schema,,,DB,CRM,AWS RDS,
 Cache DB,key value cache,,,DB,CRM,Redis,
-Elastic DB,contains main DB schema,,,DB,CRM,AWS OpenSearch,
-Big data DB,allows aggregations,,,DB,CRM,Snowflake,
 Message Bus,allows async messages exchange,,,queue,CRM,RabbitMQ,
-Documents manager,manages documents,,SQL DB,Backend,CRM,Node.js,Cloudinary
-Subscriptions Manager,manages subscriptions,,SQL DB,Backend,CRM,Node.js,Recurly
-Notifications Center,manages notifications,,SQL DB,Backend,CRM,Node.js,Sengrid
